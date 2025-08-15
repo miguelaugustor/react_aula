@@ -5,10 +5,9 @@ import { Profile } from "@/components/Profile"
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <h1>Olá Mundo!</h1>
-      <Profile/>
+      <Profile />
     </div>
   );
 }
-
