@@ -1,13 +1,16 @@
 //import Image from "next/image";
 //import styles from "./page.module.css";
 
-import { Profile } from "@/components/Profile"
+import { TodoList } from "@/components/components/TodoList";
+import { Profile } from "@/components/components/Profile";
 
 export default function Home() {
   return (
-    <div>
+    <section>
       <h1>Olá Mundo!</h1>
       <Profile />
-    </div>
+      <hr />
+      <TodoList/>
+    </section>
   );
 }
