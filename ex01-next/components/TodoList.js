@@ -1,14 +1,14 @@
 export default function TodoList() {
   return (
     <>
-      <h1>Hedy Lamarr's Todos</h1>
+      <h1>Lemonade</h1>
       <img 
-        src="https://i.imgur.com/yXOvdOSs.jpg" 
-        alt="Hedy Lamarr" 
+        src="https://uploads.jovemnerd.com.br/wp-content/uploads/2016/06/lemonade.jpg" 
+        alt="Beyoncé from Lemonade" 
         className="photo" 
       />
       <ul>
-        <li>Invent new traffic lights</li>
+        <li>A perfect album</li>
         <li>Rehearse a movie scene</li>
         <li>Improve the spectrum technology</li>
       </ul>
